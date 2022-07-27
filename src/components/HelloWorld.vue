@@ -3,10 +3,10 @@
 
   <p>
     <a href="https://vitejs.dev/guide/features.html" target="_blank">
-      Vite Documentation
+      Visit App
     </a>
     |
-    <a href="https://v3.vuejs.org/" target="_blank">Vue 3 Documentation</a>
+    <a href="https://next.adball.tech/" target="_blank">Vue 3</a>
   </p>
 
   <button type="button" @click="state.count++">count is: {{ state.count }}</button>
@@ -24,6 +24,12 @@ defineProps({
 })
 
 const state = reactive({ count: 0 })
+</script>
+
+<script setup>
+import HelloWorld from './components/HelloWorld.vue'
+// This starter template is using Vue 3 experimental <script setup> SFCs
+// Check out https://github.com/vuejs/rfcs/blob/script-setup-2/active-rfcs/0000-script-setup.md
 </script>
 
 <style scoped>
